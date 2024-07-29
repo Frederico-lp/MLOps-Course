@@ -1,5 +1,28 @@
 data/
 Anaconda3-2022.05-Linux-x86_64.sh
+models/
+
+# Ignore MLflow's local artifact store and log directories
+.mlflow/
+mlruns/
+
+# Ignore SQLite database files used by MLflow
+*.db
+*.sqlite
+
+# Ignore MLflow's default artifact directory if using local file system as artifact store
+artifacts/
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore environment and dependency files that may be generated or used during training
+*.egg-info/
+*.pyc
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
