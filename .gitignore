@@ -2,6 +2,8 @@ data/
 Anaconda3-2022.05-Linux-x86_64.sh
 models/
 
+mage/
+
 # Ignore MLflow's local artifact store and log directories
 .mlflow/
 mlruns/
